@@ -17,4 +17,4 @@ resource "aws_route53_record" "expense1" {
     ttl = 1
     records = [aws_instance.expense[2].public_ip]
     allow_overwrite = true
-}
+}   
